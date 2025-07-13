@@ -4,15 +4,15 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: '弘毅求索',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: '不可急于求成，但要大胆尝试',
     // site description
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    description: '大胆尝试-布鲁斯猫的中文博客，讨论编程、投资、生活等话题，分享个人经验和见解。',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true, false
+    i18nTitle: false, // true, false
     // author name
-    author: 'radishzz',
+    author: '布鲁斯猫',
     // site url
     url: 'https://retypeset.radishzz.cc',
     // favicon url
@@ -25,6 +25,19 @@ export const themeConfig: ThemeConfig = {
   color: {
     // default theme mode
     mode: 'light', // light, dark, auto
+    // 米黄
+    // light: {
+    //   primary: 'oklch(0.25 0 0)',
+    //   secondary: 'oklch(0.41 0 0)',
+    //   background: 'oklch(0.95 0.0237 59.39)',
+    //   highlight: 'oklch(0.93 0.195089 103.2532 / 0.5)',
+    // },
+    // dark: {
+    //   primary: 'oklch(0.93 0.019 59.39)',
+    //   secondary: 'oklch(0.80 0.017 59.39)',
+    //   background: 'oklch(0.23 0 0)',
+    //   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
+    // },
     light: {
       // primary color
       // used for title, hover, etc
@@ -58,7 +71,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh', // de, en, es, fr, ja, ko, pl, pt, ru, zh, zh-tw
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: ['en', 'es', 'ja', 'ru', 'zh-tw'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
+    moreLocales: [], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
@@ -159,21 +172,17 @@ export const themeConfig: ThemeConfig = {
     // social links
     links: [
       {
-        name: 'RSS',
-        url: '/atom.xml', // or /rss.xml
-      },
-      {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/EZ4BRUCE',
       },
       {
         name: 'Email',
-        url: 'email@radishzz.cc',
+        url: 'ez4bruce@gmail.com',
       },
-      // {
-      //   name: 'X',
-      //   url: 'https://x.com/radishzz_',
-      // },
+      {
+        name: 'X',
+        url: 'https://x.com/ez4bruce0',
+      },
     ],
     // year of website start
     startYear: 2025,
