@@ -17,7 +17,7 @@ export const themeConfig: ThemeConfig = {
     url: 'https://retypeset.radishzz.cc',
     // favicon url
     // recommended formats: svg, png or ico
-    favicon: '/icons/favicon.svg', // or https://example.com/favicon.svg
+    favicon: '/icons/bruce-working.png', // or https://example.com/favicon.svg
   },
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
@@ -92,11 +92,11 @@ export const themeConfig: ThemeConfig = {
     // giscus
     // https://giscus.app/
     giscus: {
-      repo: '',
-      repoId: '',
-      category: '',
-      categoryId: '',
-      mapping: 'pathname',
+      repo: 'EZ4BRUCE/blog',
+      repoId: 'R_kgDOPLzDSg',
+      category: 'General',
+      categoryId: 'DIC_kwDOPLzDSs4CtD3d',
+      mapping: 'title',
       strict: '0',
       reactionsEnabled: '1',
       emitMetadata: '0',
@@ -104,67 +104,67 @@ export const themeConfig: ThemeConfig = {
     },
     // twikoo
     // https://twikoo.js.org/
-    twikoo: {
-      envId: '',
-      // version: frontend version can be changed in package.json
-    },
+    // twikoo: {
+    //   envId: '',
+    //   // version: frontend version can be changed in package.json
+    // },
     // waline
     // https://waline.js.org/en/
-    waline: {
-      // server url
-      serverURL: 'https://retypeset-comment.radishzz.cc',
-      // emoji url
-      emoji: [
-        'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
-        // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
-        // more emojis: https://waline.js.org/en/guide/features/emoji.html
-      ],
-      // gif search
-      search: false, // true, false
-      // image uploader
-      imageUploader: false, // true, false
-    },
+    // waline: {
+    //   // server url
+    //   serverURL: 'https://retypeset-comment.radishzz.cc',
+    //   // emoji url
+    //   emoji: [
+    //     'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+    //     // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+    //     // more emojis: https://waline.js.org/en/guide/features/emoji.html
+    //   ],
+    //   // gif search
+    //   search: false, // true, false
+    //   // image uploader
+    //   imageUploader: false, // true, false
+    // },
   },
   // COMMENT SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
-  seo: {
-    // @twitter ID
-    twitterID: '@radishzz_',
-    // site verification
-    verification: {
-      // google search console
-      // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
-      // bing webmaster tools
-      // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
-      // yandex webmaster
-      // https://webmaster.yandex.com
-      yandex: '',
-      // baidu search
-      // https://ziyuan.baidu.com
-      baidu: '',
-    },
-    // google analytics
-    // https://analytics.google.com
-    googleAnalyticsID: '',
-    // umami analytics
-    // https://cloud.umami.is
-    umamiAnalyticsID: '520af332-bfb7-4e7c-9386-5f273ee3d697',
-    // follow verification
-    // https://follow.is/
-    follow: {
-      // feed ID
-      feedID: '',
-      // user ID
-      userID: '',
-    },
-    // apiflash access key
-    // automatically generate website screenshots for open graph images
-    // get your access key at: https://apiflash.com/
-    apiflashKey: '',
-  },
+  // seo: {
+  //   // @twitter ID
+  //   twitterID: '@radishzz_',
+  //   // site verification
+  //   verification: {
+  //     // google search console
+  //     // https://search.google.com/search-console
+  //     google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+  //     // bing webmaster tools
+  //     // https://www.bing.com/webmasters
+  //     bing: '64708CD514011A7965C84DDE1D169F87',
+  //     // yandex webmaster
+  //     // https://webmaster.yandex.com
+  //     yandex: '',
+  //     // baidu search
+  //     // https://ziyuan.baidu.com
+  //     baidu: '',
+  //   },
+  //   // google analytics
+  //   // https://analytics.google.com
+  //   googleAnalyticsID: '',
+  //   // umami analytics
+  //   // https://cloud.umami.is
+  //   umamiAnalyticsID: '520af332-bfb7-4e7c-9386-5f273ee3d697',
+  //   // follow verification
+  //   // https://follow.is/
+  //   follow: {
+  //     // feed ID
+  //     feedID: '',
+  //     // user ID
+  //     userID: '',
+  //   },
+  //   // apiflash access key
+  //   // automatically generate website screenshots for open graph images
+  //   // get your access key at: https://apiflash.com/
+  //   apiflashKey: '',
+  // },
   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
@@ -190,19 +190,19 @@ export const themeConfig: ThemeConfig = {
   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
-  preload: {
-    // image hosting url
-    // optimize remote images in Markdown files to avoid cumulative layout shift
-    imageHostURL: 'image.radishzz.cc',
-    // custom google analytics js
-    // for users who route analytics javascript to a customized domain
-    // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
-    customGoogleAnalyticsJS: '',
-    // custom umami analytics js
-    // for users who deploy umami on their own, or route analytics javascript to a customized domain
-    // see https://github.com/umami-software/umami/discussions/1026
-    customUmamiAnalyticsJS: 'https://js.radishzz.cc/jquery.min.js',
-  },
+  // preload: {
+  //   // image hosting url
+  //   // optimize remote images in Markdown files to avoid cumulative layout shift
+  //   imageHostURL: 'image.radishzz.cc',
+  //   // custom google analytics js
+  //   // for users who route analytics javascript to a customized domain
+  //   // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
+  //   customGoogleAnalyticsJS: '',
+  //   // custom umami analytics js
+  //   // for users who deploy umami on their own, or route analytics javascript to a customized domain
+  //   // see https://github.com/umami-software/umami/discussions/1026
+  //   customUmamiAnalyticsJS: 'https://js.radishzz.cc/jquery.min.js',
+  // },
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 }
 
