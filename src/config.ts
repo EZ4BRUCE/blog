@@ -8,13 +8,13 @@ export const themeConfig: ThemeConfig = {
     // site subtitle
     subtitle: '不可急于求成，但要大胆尝试',
     // site description
-    description: '大胆尝试-布鲁斯猫的中文博客，讨论编程、投资、生活等话题，分享个人经验和见解。',
+    description: '弘毅求索-布鲁斯猫的中文博客，讨论编程、投资、生活等话题，分享个人经验和见解。',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: false, // true, false
     // author name
     author: '布鲁斯猫',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://www.ez4bruce.com',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icons/bruce-working.png', // or https://example.com/favicon.svg
